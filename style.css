@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #27374d;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #526d82;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  font-family: poppins;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(184, 184, 240);
+  font-size: 1.05rem;
+}
+
+.left {
+  font-family: poppins;
+  font-size: 2rem;
+}
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 52px 90px;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
+
+.firstsection > div {
+  width: 55%;
+}
+
+.leftsection {
+  font-family: poppins;
+  font-size: 2rem;
+}
+
+.rightsection img {
+  height: 75%;
+}
+
+.image {
+  width: 600px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+#element {
+  color: yellowgreen;
+}
+
+main hr {
+  border: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 0.4px;
+  background: yellow;
+}
+
+.secondSection {
+  font-family: poppins;
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  height: 60vh;
+ 
+}
+
+.secondSection h1 {
+  font: 1.3rem;
+}
+
+.secondSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 50px 0;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 50px;
+  width: 2px;
+  background: white;
+  margin: 0 125px;
+}
+
+.image-top {
+  width: 23px;
+  position: relative;
+  top: -25px;
+  left: -11px;
+}
+
+.vertical-text {
+  position: relative;
+  top: 18px;
+  left: -72px;
+  text-align: center;
+  width: 150px;
+}
+.vertical-desc {
+  position: relative;
+  top: 15px;
+  left: -99px;
+  width: 200px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.date-font{
+  font-size: 10px;
+}
+
+.company-color{
+  font-size:12px;
+  color: rgb(226, 148, 148);
+  font-weight: bold;
+}
+
+.footer {
+  color: rgb(17, 1, 25);
+  font-family: poppins;
+  display: flex;
+  background-color: #9db2bf;
+}
+
+.first h5 {
+  text-align: center;
+  position: relative;
+  left: 500px;
+}
+.educationSection {
+  font-family: poppins;
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  height: 60vh;
+}
+
+.educationSection h1 {
+  font: 1.3rem;
+}
+
+.educationSection .box {
+  background: white;
+  width: 80vw;
+  height: 2px;
+  margin: 60px 0;
+  display: flex;
+}
+
+.educationSection .vertical {
+  height: 50px;
+  width: 2px;
+  background: white;
+  margin: 2px 165px;
+}
+
+.educationSection .image-top {
+  width: 23px;
+  position: relative;
+  top: -26px;
+  left: -12px;
+}
+
+.educationSection .vertical-text {
+  position: relative;
+  top: 18px;
+  left: -72px;
+  text-align: center;
+  width: 150px;
+}
+
+.educationSection .vertical-desc {
+  position: relative;
+  top: 15px;
+  left: -99px;
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.skillsSection {
+  font-family: 'Poppins', sans-serif;
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.skillsSection h1 {
+  font: 1.3rem;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.skillsBox {
+  flex-basis: 30%;
+}
+
+.skillsBox h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.skillsBox ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skillsBox ul li {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .skillsSection {
+    padding: 0 20px;
+  }
+
+  .skillsContainer {
+    flex-wrap: wrap;
+  }
+
+  .skillsBox {
+    flex-basis: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.certificatesSection {
+  font-family: 'Poppins', sans-serif;
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.certificatesSection h1 {
+  font: 1.3rem;
+}
+
+.certificatesContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.certificate {
+  width: 300px;
+  padding: 20px;
+  background-color: #27374d;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.certificate img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.certificate h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.certificate p {
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .certificatesSection {
+    padding: 0 20px;
+  }
+
+  .certificatesContainer {
+    justify-content: center;
+  }
+}
+
